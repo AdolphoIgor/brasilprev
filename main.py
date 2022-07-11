@@ -1,7 +1,22 @@
 """
-    Peço sua compreensão quanto ao excesso de comentários neste código. A verdade é que quero garantir que a leitura
-    será facilitada.
+    Para facilitar a execução/avaliação deste programa, procurei simplificar a estrutura de projeto reduzindo-o a um script, 
+    todas as dependencias do projeto são padrão para a instação do Python.
+    
+    Este projeto usa Python 3.8+
+    
+    Ao escrever código, na busca por resolver o problema, mantenho a preocupação de equilibrar a redução de passos e a 
+    legibilidade do código, a final, não adianta ter um código super performático, super reduzido, se as pessoas que
+    por ventura venham a dar manutenção nele não sejam capaz de compreendê-lo; o que faltamente irá conduzir à sua
+    substituição. Portanto, peço que tenham em mente que há muito espaço para redução e otimizações aqui. Ok?
+    
+    Procurei tambem apresentar variadas técnicas aqui que vão desde o emprego da metaprogramação e vai até o minsdset
+    de desenvolvimento Pythônico, com técnicas de manipulação de dados mais adeqadas para a redução na solução do problema.
+    
+    Peço apenas sua compreensão pois excedi na quantidade de comentários neste código. O objetivo é guiá-los na 
+    compreensão do programa.
 
+    Quaisquer dúvidas, podem me alcançar pelo email: adolpho.igor@gmail.com
+    
 """
 from random import seed
 from random import random, randint, shuffle
